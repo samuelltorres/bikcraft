@@ -68,3 +68,13 @@
 		font-size: 14px;
 	}
 }
+
+@media (max-width: 470px) {
+	.header {
+		display: grid;
+		justify-content: center;
+	}
+	.header > a {
+		justify-self: center;
+	}
+}
