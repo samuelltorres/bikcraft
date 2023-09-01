@@ -29,13 +29,14 @@
 	display: block;
 	height: 2px;
 	width: 0;
-	background: linear-gradient(270deg, var(--cor-0), #17161d);
+	background: var(--cor-0);
 	margin-top: 4px;
 	transition: 0.3s;
 	position: absolute;
 }
 
-.header-menu a:hover:after {
+.header-menu a:hover::after,
+.header-menu a.ativo::after {
 	width: 100%;
 }
 
